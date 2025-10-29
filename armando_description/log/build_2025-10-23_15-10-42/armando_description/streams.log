@@ -1,0 +1,95 @@
+[0.014s] Invoking command in '/home/user/ros2_ws/src/armando_description/build/armando_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/armando_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/armando_description/install/armando_description
+[0.092s] -- The C compiler identification is GNU 11.4.0
+[0.161s] -- The CXX compiler identification is GNU 11.4.0
+[0.175s] -- Detecting C compiler ABI info
+[0.290s] -- Detecting C compiler ABI info - done
+[0.307s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.308s] -- Detecting C compile features
+[0.309s] -- Detecting C compile features - done
+[0.315s] -- Detecting CXX compiler ABI info
+[0.416s] -- Detecting CXX compiler ABI info - done
+[0.435s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.435s] -- Detecting CXX compile features
+[0.437s] -- Detecting CXX compile features - done
+[0.453s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.663s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.800s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.910s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.911s] -- Configured cppcheck include dirs: 
+[0.911s] -- Configured cppcheck exclude dirs and/or files: 
+[0.913s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.916s] -- Added test 'lint_cmake' to check CMake code style
+[0.918s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.932s] -- Added test 'uncrustify' to check C / C++ code style
+[0.932s] -- Configured uncrustify additional arguments: 
+[0.934s] -- Added test 'xmllint' to check XML markup files
+[0.936s] -- Configuring done
+[0.939s] -- Generating done
+[0.941s] -- Build files have been written to: /home/user/ros2_ws/src/armando_description/build/armando_description
+[0.946s] Invoked command in '/home/user/ros2_ws/src/armando_description/build/armando_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/armando_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/armando_description/install/armando_description
+[0.949s] Invoking command in '/home/user/ros2_ws/src/armando_description/build/armando_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/src/armando_description/build/armando_description -- -j16 -l16
+[0.995s] Invoked command in '/home/user/ros2_ws/src/armando_description/build/armando_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/src/armando_description/build/armando_description -- -j16 -l16
+[1.010s] Invoking command in '/home/user/ros2_ws/src/armando_description/build/armando_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/src/armando_description/build/armando_description
+[1.028s] -- Install configuration: ""
+[1.028s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//urdf
+[1.028s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//urdf/arm.urdf
+[1.028s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//meshes
+[1.028s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//meshes/the_crawer.stl
+[1.029s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//meshes/wrist.stl
+[1.029s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//meshes/f4_n_f3.stl
+[1.029s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//meshes/the_crawer_lever.stl
+[1.029s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//meshes/wrist_rotate.stl
+[1.029s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//meshes/the_crawer_base.stl
+[1.029s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//meshes/base_turn_table.stl
+[1.030s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//meshes/servo_hinge_flange.stl
+[1.030s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//meshes/base_turn.stl
+[1.030s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//meshes/base_link.stl
+[1.031s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//meshes/base_turn_table_rot.stl
+[1.031s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//meshes/base_turn_table_bot.stl
+[1.032s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//meshes/base_turn_table_spacer.stl
+[1.032s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//meshes/base_legs_arbotix_m.stl
+[1.034s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//meshes/inertia.py
+[1.034s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//meshes/dyn.stl
+[1.036s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch
+[1.036s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/armando_display.launch.py
+[1.037s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/build
+[1.037s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/build/COLCON_IGNORE
+[1.037s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/build/.built_by
+[1.037s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/install
+[1.037s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/install/setup.bash
+[1.037s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/install/setup.ps1
+[1.037s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/install/.colcon_install_layout
+[1.037s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/install/setup.zsh
+[1.037s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/install/COLCON_IGNORE
+[1.037s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/install/local_setup.bash
+[1.038s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/install/_local_setup_util_sh.py
+[1.038s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/install/local_setup.ps1
+[1.038s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/install/local_setup.sh
+[1.038s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/install/_local_setup_util_ps1.py
+[1.038s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/install/local_setup.zsh
+[1.038s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/install/setup.sh
+[1.039s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/log
+[1.039s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/log/COLCON_IGNORE
+[1.039s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/log/latest_build
+[1.039s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/log/latest
+[1.039s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/log/build_2025-10-23_14-04-51
+[1.039s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/log/build_2025-10-23_14-04-51/logger_all.log
+[1.039s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//launch/log/build_2025-10-23_14-04-51/events.log
+[1.039s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//config
+[1.039s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description//config/armando.rviz
+[1.040s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/ament_index/resource_index/package_run_dependencies/armando_description
+[1.040s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/ament_index/resource_index/parent_prefix_path/armando_description
+[1.040s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description/environment/ament_prefix_path.sh
+[1.040s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description/environment/ament_prefix_path.dsv
+[1.040s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description/environment/path.sh
+[1.041s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description/environment/path.dsv
+[1.041s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description/local_setup.bash
+[1.041s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description/local_setup.sh
+[1.041s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description/local_setup.zsh
+[1.041s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description/local_setup.dsv
+[1.042s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description/package.dsv
+[1.042s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/ament_index/resource_index/packages/armando_description
+[1.042s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description/cmake/armando_descriptionConfig.cmake
+[1.042s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description/cmake/armando_descriptionConfig-version.cmake
+[1.042s] -- Installing: /home/user/ros2_ws/src/armando_description/install/armando_description/share/armando_description/package.xml
+[1.045s] Invoked command in '/home/user/ros2_ws/src/armando_description/build/armando_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/src/armando_description/build/armando_description
