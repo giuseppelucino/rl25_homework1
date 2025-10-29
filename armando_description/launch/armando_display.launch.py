@@ -10,7 +10,7 @@ def generate_launch_description():
     pkg_armando_description = get_package_share_directory('armando_description')
     
     # 2. Definisci i percorsi dei file
-    urdf_path = os.path.join(pkg_armando_description, 'urdf', 'arm.urdf')
+    urdf_path = os.path.join(pkg_armando_description, 'urdf', 'arm.urdf.xacro')
     # Configurazione Rviz (richiesta per il punto 1.b)
     rviz_config_path = os.path.join(pkg_armando_description, 'config', 'armando.rviz')
     
