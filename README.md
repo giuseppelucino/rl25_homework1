@@ -3,10 +3,10 @@ Course: Robotic Lab
 
 Student: Giuseppe Lucino / P38000340
 
-# \U0001f3af Project Objective
+# Project Objective
 The objective of this project is the creation of a ROS 2 workspace containing the necessary packages for the simulation of a 4 Degrees of Freedom (DoF) robotic manipulator, named Armando, within the Gazebo simulation environment, using ROS 2 Humble and ros2_control.
 
-# \U0001f6e0\ufe0f Prerequisites
+# rerequisites
 To compile and run the project, it is necessary to have the essential dependencies for ROS 2 and Gazebo installed. After logging into your container or virtual machine, be sure to install:
 
 ```bash
@@ -17,7 +17,7 @@ To compile and run the project, it is necessary to have the essential dependenci
  sudo apt install ros-humble-rqt-image-view
 ```
 
-# 3. \U0001f3d7\ufe0f BUILD
+# 3. BUILD
 Cloning the Repository
 
 Clone this repository into the desired folder :
@@ -29,7 +29,7 @@ Clone this repository into the desired folder :
  colcon build
  source install/setup.bash
 ```
-# \U0001f680 HOW TO LAUNCH
+# HOW TO LAUNCH
 Visualization Robot (Rviz2)
 
 To see only the kinematic model of the robot and its frames in RViz2:
