@@ -1,12 +1,12 @@
-# Project: ARMANDO Robotic Manipulator Simulation (4 DoF)
+# 🤖 Project: ARMANDO Robotic Manipulator Simulation (4 DoF)
 Course: Robotic Lab 
 
 Student: Giuseppe Lucino / P38000340
 
-# Project Objective
+# 🎯 Project Objective
 The objective of this project is the creation of a ROS 2 workspace containing the necessary packages for the simulation of a 4 Degrees of Freedom (DoF) robotic manipulator, named Armando, within the Gazebo simulation environment, using ROS 2 Humble and ros2_control.
 
-# rerequisites
+# 🛠️ Prerequisites
 To compile and run the project, it is necessary to have the essential dependencies for ROS 2 and Gazebo installed. After logging into your container or virtual machine, be sure to install:
 
 ```bash
@@ -17,7 +17,7 @@ To compile and run the project, it is necessary to have the essential dependenci
  sudo apt install ros-humble-rqt-image-view
 ```
 
-# 3. BUILD
+# 3. 🏗️ BUILD
 Cloning the Repository
 
 Clone this repository into the desired folder :
@@ -29,7 +29,7 @@ Clone this repository into the desired folder :
  colcon build
  source install/setup.bash
 ```
-# HOW TO LAUNCH
+# 🚀 HOW TO LAUNCH
 Visualization Robot (Rviz2)
 
 To see only the kinematic model of the robot and its frames in RViz2:
@@ -53,7 +53,7 @@ Trajectory Mode (requires external node): Starts the joint trajectory controller
 ```bash
  ros2 launch armando_gazebo armando_world.launch.py controller_mode:=trajectory
 ```
-#  \U0001f579\ufe0f INTERACTION AND CONTROL
+#  🕹️ INTERACTION AND CONTROL
 Manual Position Control (Test)
 
 To send a specific position setpoint to the joints (only in position mode), where the values are in the order [j0, j1, j2, j3] in radians:
@@ -68,7 +68,7 @@ To visualize the real-time video feed from the simulated camera in Gazebo: Launc
 ```bash
  ros2 run rqt_image_view rqt_image_view
 ```
-# \U0001f50d VERIFICATION AND DEBUGGING
+# 🔍 VERIFICATION AND DEBUGGING
 To confirm correct operation and monitor the system status:
 
 Active Controller Verification
@@ -84,4 +84,4 @@ To see all running nodes:
 To see all topics:
 ```bash
  ros2 topic list
-`
+```
