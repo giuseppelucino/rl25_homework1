@@ -1,22 +1,18 @@
 controller_manager:
   ros__parameters:
-    update_rate: 100 # Frequenza di aggiornamento del Controller Manager (100 Hz \u00e8 standard)
+    update_rate: 100 # Frequenza di aggiornamento del Controller Manager 
     
     # Controller sempre attivi
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
     
-    # Controller per il movimento (sar\u00e0 attivato solo uno alla volta tramite il launch file)
+    # Controller per il movimento 
     arm_trajectory_controller:
       type: joint_trajectory_controller/JointTrajectoryController
     
-    # CORREZIONE FATALE: Il tipo corretto per il position controller in ROS 2
+   
     arm_position_controller:
-      type: position_controllers/JointGroupPositionController 
-      
-# =========================================================================
-# CONFIGURAZIONE DETTAGLIATA
-# =========================================================================
+      type: position_controllers/JointGroupPositionController
 
 arm_trajectory_controller:
   ros__parameters:
@@ -27,7 +23,7 @@ arm_trajectory_controller:
       - j3
     command_interfaces:
       - position
-      - velocity # Cruciale per il JTC
+      - velocity 
     state_interfaces:
       - position
       - velocity
